@@ -1,0 +1,174 @@
+
+# Pet Club — Visión del proyecto
+
+## 1. Descripción general
+
+Pet Club es un juego de mascotas virtuales multiplataforma inspirado en los clásicos juegos sociales de mascotas.
+
+El jugador podrá crear una criatura fantástica original, cuidar sus necesidades, personalizar su apariencia, decorar su hogar, recorrer una ciudad, visitar tiendas, participar en actividades y coleccionar objetos.
+
+El proyecto busca recuperar la experiencia social y de personalización de los juegos clásicos, incorporando mejoras visuales, técnicas y de experiencia de usuario.
+
+Pet Club tendrá un universo, personajes, ilustraciones, objetos y recursos originales.
+
+## 2. Objetivo principal
+
+Desarrollar un juego de mascotas virtuales que permita a los jugadores crear una experiencia propia mediante el cuidado de su mascota, la personalización de espacios, la exploración y la participación en distintas actividades.
+
+## 3. Público objetivo
+
+Personas interesadas en:
+- Juegos de mascotas virtuales.
+- Personalización de personajes.
+- Decoración de espacios.
+- Juegos casuales y sociales.
+- Coleccionismo y progresión.
+- Experiencias creativas y relajadas.
+
+## 4. Plataformas
+
+El proyecto contempla:
+- Computadoras de escritorio.
+- Notebooks.
+- Tablets.
+- Dispositivos Android.
+- Dispositivos iOS.
+
+La primera versión se desarrollará para navegadores web, considerando desde el inicio un diseño adaptable a diferentes tamaños de pantalla.
+
+## 5. Características principales
+
+### 5.1. Mascota virtual
+- Una especie original de criatura fantástica.
+- Personalización de cuerpo, colores, ojos, boca y expresiones.
+- Nombre personalizado.
+- Animaciones y reacciones.
+- Interacciones con objetos y con el entorno.
+
+### 5.2. Necesidades y cuidados
+La mascota tendrá tres necesidades principales:
+- Higiene.
+- Hambre.
+- Diversión.
+
+Las necesidades evolucionarán con el paso del tiempo, incluso cuando el jugador no esté conectado.
+
+El sistema deberá evitar consecuencias irreversibles por períodos prolongados de ausencia.
+
+### 5.3. Hogar
+- Casa inicial con una habitación.
+- Habitaciones adicionales desbloqueables.
+- Muebles y objetos decorativos.
+- Personalización de paredes y pisos.
+- Movimiento y ubicación de objetos.
+- Guardado automático de la decoración.
+
+### 5.4. Ciudad
+La ciudad permitirá acceder a distintos establecimientos y actividades.
+
+Entre ellos:
+- Tienda de muebles.
+- Supermercado.
+- Tienda de ropa y accesorios.
+- Tienda de objetos especiales.
+- Tienda de construcción y decoración.
+- Estilista.
+- Tienda de exteriores y jardinería.
+- Cafetería.
+- Plaza y parque.
+- Salón de juegos.
+- Estadio deportivo.
+- Zona de pesca.
+
+### 5.5. Progresión
+- Misiones diarias y semanales.
+- Logros.
+- Eventos temporales.
+- Colecciones de objetos.
+- Recompensas.
+- Nuevas posibilidades de personalización.
+
+### 5.6. Sistema económico
+El juego tendrá dos tipos de moneda:
+- Moneda común, obtenida jugando y completando actividades.
+- Moneda especial, destinada a determinados artículos y contenidos exclusivos.
+
+La progresión principal no deberá depender de realizar pagos.
+
+### 5.7. Funciones sociales futuras
+- Agregar amigos.
+- Visitar otras casas.
+- Enviar regalos.
+- Interactuar con otras mascotas.
+- Compartir espacios y actividades.
+
+Estas características se incorporarán en etapas posteriores.
+
+## 6. Experiencia del jugador
+
+El recorrido inicial será:
+
+1. Ingresar al juego.
+2. Registrarse o iniciar sesión.
+3. Crear y personalizar una mascota.
+4. Recibir una introducción al juego.
+5. Completar un tutorial inicial.
+6. Realizar la primera misión.
+7. Acceder a su hogar.
+8. Cuidar a su mascota.
+9. Explorar la ciudad.
+10. Comprar objetos, decorar y participar en actividades.
+
+El progreso se guardará en la nube para permitir continuar desde diferentes dispositivos.
+
+## 7. Modelo de acceso
+
+Pet Club tendrá una experiencia de juego gratuita.
+
+Se contempla la posibilidad de recibir donaciones voluntarias para contribuir al mantenimiento y desarrollo del proyecto.
+
+Los pagos no deberán ser obligatorios para disfrutar de las funcionalidades principales.
+
+## 8. Tecnologías previstas
+
+### Frontend
+- JavaScript.
+- React.
+- Vite.
+- PixiJS.
+- CSS.
+
+### Backend
+- C#.
+- ASP.NET Core Web API.
+- Entity Framework Core.
+
+### Base de datos
+- SQL Server.
+
+### Otras herramientas
+- Git y GitHub.
+- Jira.
+- Figma.
+- Visual Studio Code.
+
+### Posibles tecnologías futuras
+- SignalR para funcionalidades en tiempo real.
+- Capacitor para empaquetar la aplicación web en Android e iOS.
+
+## 9. Objetivos a largo plazo
+
+- Construir un mundo virtual ampliable.
+- Incorporar nuevas habitaciones, tiendas y actividades.
+- Crear eventos y temporadas especiales.
+- Incorporar funcionalidades sociales.
+- Mejorar las animaciones y la interacción con el entorno.
+- Mantener una experiencia consistente entre dispositivos.
+
+## 10. Estado actual
+
+**Etapa:** Planificación y definición del proyecto.
+
+Todavía no comenzó el desarrollo de funcionalidades.
+
+Las decisiones de diseño, requisitos, arquitectura y planificación se documentarán antes de iniciar la programación.
