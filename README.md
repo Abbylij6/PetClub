@@ -1,118 +1,98 @@
+# Pet Club
 
-# 🐾 Pet Club
+Juego de mascotas virtuales multiplataforma. El jugador podrá crear una criatura fantástica original, cuidarla, personalizar su apariencia, decorar su hogar, explorar una ciudad, participar en actividades y coleccionar objetos.
 
-**Un mundo virtual donde tu mascota, tu creatividad y tus aventuras se encuentran.**
+> **Estado:** planificación y documentación. El desarrollo de funcionalidades todavía no comenzó.
 
-## 📌 Sobre el proyecto
+## Objetivos
 
-Pet Club es un videojuego de mascotas virtuales multiplataforma inspirado en los clásicos juegos sociales de mascotas.
+- Crear una experiencia de mascota virtual accesible desde navegador y, a futuro, dispositivos móviles.
+- Ofrecer personalización, decoración, exploración, actividades y progresión.
+- Guardar el progreso en la nube para continuar desde distintos dispositivos.
+- Construir un universo, criaturas, ilustraciones y recursos originales.
 
-El proyecto busca recuperar la experiencia de cuidar una mascota, personalizar su apariencia, decorar una casa, explorar una ciudad, participar en actividades y coleccionar objetos, incorporando mejoras en la experiencia de usuario y nuevas posibilidades de juego.
+## Funcionalidades previstas
 
-El juego contará con criaturas originales, elementos visuales propios y un universo diseñado desde cero.
-
-## 🎯 Objetivos
-
-- Crear y personalizar una mascota fantástica.
-- Cuidar sus necesidades.
-- Decorar y ampliar su casa.
-- Explorar diferentes zonas de una ciudad virtual.
-- Comprar, coleccionar y desbloquear objetos.
-- Participar en misiones y minijuegos.
-- Incorporar funciones sociales en futuras versiones.
-- Permitir jugar desde PC, tablets y dispositivos móviles.
-
-## 🐾 Características principales
-
-### Mascota
-- Criatura fantástica original.
-- Amplias opciones de personalización.
+- Creación y personalización de una especie original de criatura fantástica.
 - Necesidades de higiene, hambre y diversión.
-- Animaciones, expresiones e interacciones.
+- Casa personalizable con habitaciones, muebles y objetos.
+- Ciudad con tiendas, cafetería, plaza, arcade, estadio y zona de pesca.
+- Inventario, monedas, misiones, logros, colecciones y eventos.
+- Funciones sociales en una etapa futura.
 
-### Casa
-- Habitaciones personalizables.
-- Muebles y objetos decorativos.
-- Inventario.
-- Ampliación de espacios.
+## Tecnologías previstas
 
-### Ciudad
-- Tiendas y comercios.
-- Cafetería.
-- Plaza y parque.
-- Arcade.
-- Estadio deportivo.
-- Río y zona de pesca.
-
-### Progresión
-- Misiones diarias y semanales.
-- Logros.
-- Colecciones.
-- Monedas y recompensas.
-- Eventos especiales.
-
-### Social
-- Lista de amigos.
-- Visitas a otras casas.
-- Regalos e interacciones.
-- Funciones sociales planificadas para futuras etapas.
-
-## 🛠️ Tecnologías
-
-| Tecnología | Uso |
+| Área | Tecnología |
 |---|---|
-| JavaScript | Lógica del frontend |
-| React | Interfaz de usuario |
-| Vite | Herramienta de desarrollo frontend |
-| PixiJS | Renderizado gráfico 2D |
-| CSS | Estilos y diseño responsive |
-| C# | Desarrollo del backend |
-| ASP.NET Core Web API | Servicios y lógica del servidor |
-| SQL Server | Base de datos |
-| Entity Framework Core | Acceso a datos |
-| SignalR | Funciones en tiempo real (futuro) |
-| Git / GitHub | Control de versiones |
+| Frontend | JavaScript, React, Vite |
+| Motor 2D | PixiJS |
+| Estilos | CSS |
+| Backend | C#, ASP.NET Core Web API |
+| Persistencia | SQL Server, Entity Framework Core |
+| Tiempo real (futuro) | SignalR |
+| Empaquetado móvil (a evaluar) | Capacitor |
+| Diseño | Figma |
+| Gestión | Git, GitHub y Jira |
 
-## 🏗️ Arquitectura general
+La selección tecnológica podrá ajustarse durante el diseño técnico.
+
+## Arquitectura conceptual
 
 ```text
-        JUGADOR
-           |
-           v
-   FRONTEND (React)
-           |
-           v
-      PIXIJS 2D
-           |
-           v
-   BACKEND (ASP.NET)
-           |
-           v
-      SQL SERVER
+Jugador
+  ↓
+Frontend (React + PixiJS)
+  ↓ solicitudes HTTP
+Backend (ASP.NET Core Web API)
+  ↓
+Base de datos (SQL Server)
 ```
 
-## 🗺️ Etapas de desarrollo
+El frontend presenta la experiencia y captura las acciones del jugador. El backend valida reglas, permisos, compras y progresión. La base de datos conserva cuentas y partidas.
 
-1. Planificación y documentación.
-2. Configuración del entorno de desarrollo.
-3. Desarrollo de la mascota y sus necesidades.
-4. Desarrollo de la casa y decoración.
-5. Inventario y economía.
-6. Tiendas y ciudad.
-7. Misiones y minijuegos.
-8. Colecciones y eventos.
-9. Funciones sociales.
-10. Optimización y lanzamiento multiplataforma.
+## Documentación
 
-## 📌 Estado del proyecto
+- [Visión del proyecto](docs/01-VISION-DEL-PROYECTO.md)
+- [Requisitos funcionales y no funcionales](docs/02-REQUISITOS.md)
+- [Experiencia y recorrido del jugador](docs/03-EXPERIENCIA-DE-JUEGO.md)
+- [Diseño visual](docs/04-DISENO-VISUAL.md)
+- [Arquitectura técnica](docs/05-ARQUITECTURA.md)
+- [Modelo de datos inicial](docs/06-BASE-DE-DATOS.md)
+- [Roadmap](docs/07-ROADMAP.md)
+- [Registro de decisiones](docs/08-REGISTRO-DE-DECISIONES.md)
+- [Guías de desarrollo](docs/guias/README.md)
 
-**Etapa actual:** Planificación y configuración inicial.
+## Organización del repositorio
 
-## 📖 Documentación
+```text
+PetClub/
+├── README.md
+├── .gitignore
+└── docs/
+    ├── 01-VISION-DEL-PROYECTO.md
+    ├── 02-REQUISITOS.md
+    ├── 03-EXPERIENCIA-DE-JUEGO.md
+    ├── 04-DISENO-VISUAL.md
+    ├── 05-ARQUITECTURA.md
+    ├── 06-BASE-DE-DATOS.md
+    ├── 07-ROADMAP.md
+    ├── 08-REGISTRO-DE-DECISIONES.md
+    └── guias/
+        ├── README.md
+        ├── GUIA-DE-DESARROLLO.md
+        ├── GUIA-DE-GIT-Y-GITHUB.md
+        └── GUIA-DE-INSTALACION.md
+```
 
-La documentación detallada del proyecto se encuentra en la carpeta `docs`.
+## Cómo contribuir
 
----
+Antes de modificar archivos, leer las guías de `docs/guias/`. No trabajar directamente sobre `main`: crear una rama para cada cambio y proponer su integración mediante Pull Request.
 
-*Pet Club — Un pequeño mundo, infinitas posibilidades.*
+## Principios del proyecto
 
+1. La experiencia principal debe poder disfrutarse sin realizar pagos.
+2. La moneda especial no debe bloquear la progresión esencial.
+3. La ausencia del jugador no debe causar daños irreversibles a la mascota.
+4. Las funciones sociales se incorporarán después de estabilizar el núcleo del juego.
+5. Se priorizarán accesibilidad, rendimiento, seguridad y guardado confiable.
+6. Las referencias a juegos existentes sirven como inspiración de género; no se copiarán marcas, personajes, ilustraciones, interfaces ni recursos protegidos.
