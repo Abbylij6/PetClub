@@ -52,15 +52,15 @@ El frontend presenta la experiencia y captura las acciones del jugador. El backe
 
 ## Documentación
 
-- [Visión del proyecto](docs/01-VISION-DEL-PROYECTO.md)
-- [Requisitos funcionales y no funcionales](docs/02-REQUISITOS.md)
-- [Experiencia y recorrido del jugador](docs/03-EXPERIENCIA-DE-JUEGO.md)
-- [Diseño visual](docs/04-DISENO-VISUAL.md)
-- [Arquitectura técnica](docs/05-ARQUITECTURA.md)
-- [Modelo de datos inicial](docs/06-BASE-DE-DATOS.md)
-- [Roadmap](docs/07-ROADMAP.md)
-- [Registro de decisiones](docs/08-REGISTRO-DE-DECISIONES.md)
-- [Guías de desarrollo](docs/guias/README.md)
+- [Visión del proyecto](Documentacion/01-VISION-DEL-PROYECTO.md)
+- [Requisitos funcionales y no funcionales](Documentacion/02-REQUISITOS.md)
+- [Experiencia y recorrido del jugador](Documentacion/03-EXPERIENCIA-DE-JUEGO.md)
+- [Diseño visual](Documentacion/04-DISENO-VISUAL.md)
+- [Arquitectura técnica](Documentacion/05-ARQUITECTURA.md)
+- [Modelo de datos inicial](Documentacion/06-BASE-DE-DATOS.md)
+- [Roadmap](Documentacion/07-ROADMAP.md)
+- [Registro de decisiones](Documentacion/08-REGISTRO-DE-DECISIONES.md)
+- [Guías de desarrollo](Documentacion/guias/README.md)
 
 ## Organización del repositorio
 
